@@ -1,0 +1,109 @@
+html{ background:#000;}
+body{
+	padding-bottom:0px;
+	background:#fff;
+	}
+
+	
+	li{
+		
+		display:inline;
+	
+	}
+	
+
+
+
+
+
+
+.navbar-inverse{
+	background:#000;
+	}
+.navbar-nav{
+	float:right;
+	}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #000;
+  background-color:#fe0000;
+}
+.navbar-inverse .navbar-nav > li > a.activ {
+  color: #000;
+  background-color:#fe0000;
+}
+
+.wrapper{
+	width:100%;
+	}
+.carosel{
+	width:100%;
+	}
+.my-carousel 
+.owl-item 
+div{
+	height:600px;
+	}
+.my-carousel 
+div img{
+	max-width:100%;
+	min-width:100%;
+	}
+.my-carousel{
+	position:relative;
+	}
+.owl-next{
+	width:50px;
+	height:50px;
+	border-radius:0 !important;
+	padding:0px !important;
+	background-image:url(../images/arw-right.png) !important;
+	background-repeat:no-repeat !important;
+	background-color:transparent !important;
+	background-size:50px 50px;
+	position:absolute;
+	right:35px;
+	}
+.owl-prev{
+	width:50px;
+	height:50px;
+	border-radius:0 !important;
+	padding:0px !important;
+	background-image:url(../images/arw-left.png) !important;
+	background-repeat:no-repeat !important;
+	background-color:transparent !important;
+	background-size:50px 50px;
+	position:absolute;
+	left:35px;
+	}
+.owl-controls{
+	width:100%;
+	position:absolute;
+	top:40%;
+	z-index:1000;
+	left:0;
+	}
+
+
+#footer{
+	background:#000;
+	padding:20px 0;
+	text-align:center;
+	}
+.vg-btn{
+	color:#000;
+	display:inline-block;
+	padding:12px 25px;
+	background:#fe0000;
+	font-size:18px;
+	margin-bottom:15px;
+	}
+.vg-btn:hover{
+	text-decoration:none;
+	color:#000;
+	}
+#footer p{
+	color:#fff;
+	font-size:16px;
+	margin:0px;
+	}
